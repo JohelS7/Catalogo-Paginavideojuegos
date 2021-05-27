@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+
+}
+body{
+    background: linear-gradient(black 0%, purple 100%);
+    font-family: "Open Sans", Sans-serif;
+}
+/* ----------------- PORTADA PRINCIPAL      ------------------------------------*/
+.pelicula-principal {
+	font-size: 16px;
+	min-height: 40.62em;
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../img/wira2.jpg);
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 3.12em;
+	display: flex;
+	align-items: center;
+}
+
+.pelicula-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 4.25em;
+}
+
+.pelicula-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+
+/*footer*/
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row a{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+    text-decoration:none;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+/*header*/
+header{
+    padding: 30px 0;  
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.masjugando{
+    display:inline;
+    padding-top: 5em;
+}
+.juegos{
+    display:inline; 
+}
+
+/**************/
+.main{
+    
+    width: 100%;
+    background: black;
+    padding-top: 3.5rem;
+    /*background: linear-gradient(black 0%, purple 100%);
+    margin:0 ;*/
+   
+}
+
+.DescripSection{
+    padding-bottom: 2.5em;
+   
+    color: #ddd;
+    font-size: 31px;
+    text-align:center;
+    font-weight: 700;
+    
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+
+}
+.user{
+    
+    padding: 0px 195px;
+    float: right;
+}
+.Usuario {
+    
+	
+	list-style:none;
+    margin-top:0;
+    margin-bottom:0;
+    padding-left:0;
+  font-size: 18px;
+  display :inline-flex;
+  background: rgba(78, 3, 77, 0.03) 
+}
+
+
+
+
+.menu
+{
+    
+  list-style:none;
+  margin-top:0;
+  margin-bottom:0;
+  padding-left:0;
+  font-size: 18px;
+  display :inline-flex;
+  background: rgba(70, 3, 77, 0.03) 
+}
+
+.submenu
+{
+  position: absolute;
+  top: 100%;
+  display:none;
+  background: #111;
+}
+
+.submenu .submenu
+{
+  top:0;
+  left: 100%;
+}
+
+.menu-item
+{
+  position: relative;
+}
+.menu-item:hover >.submenu{
+    display:block;
+  }
+.menu-item:hover
+{
+   background: rgba(0,0,0,.5);
+}
+
+
+
+.menu-link
+{
+  text-decoration:none;
+  color: #ddd;
+  display: block;
+  padding: .5em 1em;
+}
+
+/*Titulo carrusel*/
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.contenedor-titulo-controles h3{
+    color:white;
+    font-size: 30px;
+}
+.contenedor-titulo-controles .indicadores button{
+    background: white;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo{
+    background-color: red;
+}
+
+/*Carrusel*/
+.novedad-juego{
+    margin-bottom: 70px;
+} 
+
+.novedad-juego .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.novedad-juego .contenedor-principal .flecha-izquierda,
+.novedad-juego .contenedor-principal .flecha-derecha{
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+.novedad-juego .contenedor-principal .flecha-izquierda:hover,
+.novedad-juego .contenedor-principal .flecha-derecha:hover{
+    background: rgba(0, 0, 0, .9);
+}
+
+.novedad-juego .contenedor-principal .flecha-izquierda{
+    left: 0;
+}
+.novedad-juego .contenedor-principal .flecha-derecha{
+    right: 0;
+}
+
+.novedad-juego .contenedor-carrusel{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.novedad-juego .contenedor-carrusel .carrusel{
+    display: flex;
+    flex-wrap: nowrap;  
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos{
+    min-width: 20%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos.hover{
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos img{
+    width: 100%;
+    vertical-align: top; 
+    height: 100%;
+}
+.novedad-juego .contenedor-carrusel .carrusel .juegos .uno{
+    width: 100%;
+    vertical-align: top; 
+    height: 100%;
+   
+}
+/*Pestaña comunidad*/
+.tabla{
+    font-size: 20px;
+    color: white;
+    width: 95%;
+   /* border-color: rgb(61, 5, 66);*/
+    margin: auto;
+    border: 1px rgb(239, 230, 240);    
+}
+.tabla .numero{
+    font-size: 50px;
+    width: 90px;
+    text-align: center;
+}
+/*Logo Comunidad*/
+.logo img{
+        display:block;
+        margin:auto;
+        width: 1200px; 
+           
+}

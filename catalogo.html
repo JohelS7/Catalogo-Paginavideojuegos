@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+    <link rel="stylesheet" href="css/estiloscatalogo.css">
+    <script src="js/catalogo.js"> </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3739c302fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+
+        <div class="contenedor">
+
+            <a href="Inicio.html"><img src="../ParteReynaldo/Imagenes/logo.png" alt="logo" width="250px"></a>
+
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a class="menu-link" href="../ParteReynaldo/Inicio.html">Inicio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../Parte Johel/catalogo.html">Catálogo</a>
+                        <ul class="menu submenu">
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Género Indie</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Género acción</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Otros</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../ParteGuillermo/comunidad.html">Comunidad</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../ParteGuillermo/novedades.html">Novedades</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="../ParteReynaldo/Descargas.html">Descargas</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="user">
+                <ul class="Usuario">
+
+                    
+                    <li class="menu-item">
+                        <a class="menu-link" href="#"><img src="../ParteReynaldo/Imagenes/lupa.png" alt="lupa" width="30px"></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#"><img src="../ParteReynaldo/Imagenes/campana.png" alt="campana" width="30px"></a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#"><img src="../ParteReynaldo/Imagenes/user.png" alt="persona" width="30px"></a>
+                        <ul class="menu submenu">
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Cuenta</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Centro de ayuda</a>
+                            </li>
+                            <li class="menu-item">
+                                <a class="menu-link" href="#">Cerrar sesion</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- PARTE DE ARRIBA -->
+        <div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Juego Indie de la Semana - Wira y Taksa</h3>
+				<p class="descripcion">
+                    Wira & Taksa es un videojuego que mezcla las plataformas y los rompe cabezas, añadiendo a estos el componente especial 
+                    de mezclar las gravedades del universo para generar en los usuarios una fantástica y divertida experiencia de juego.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Jugar</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Añadir a la lista</button>
+			</div>
+        </div>
+        <!-- CARRUSEL -->
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Juegos Indie</h3>
+                <div class="indicadores" id="indc"></div>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+
+                <div class="contenedor-carrusel " id="indie">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/wira.jpg" alt="Wira y Taksa" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img
+                                    src="img/teddy2.png"
+                                    alt="Teddymania" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/sumon.png" alt="senua"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/neon.png" alt="Neon"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/under.png"
+                                    alt="megamanx8" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/senua.jpg" alt="amongus"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img src="img/hades.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-indie">
+                            <a href="#"><img
+                                    src="img/transistor.jpg"
+                                    alt="starwars" width="260px"></a>
+                        </div>
+                    </div>
+                </div>
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Acción</h3>
+                <div class="indicadores" id="indc2"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda2" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="accion">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/half.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/half2.jpg" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/gtaga.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/rust.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/star.png" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-accion">
+                            <a href="#"><img src="img/accion/halo.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha2" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Deportivo</h3>
+                <div class="indicadores" id="indc3"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda3" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="depor">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/pes.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/fifa.png" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/nba.jpeg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/tenis.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/super.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-depor">
+                            <a href="#"><img src="img/deportes/lucha.jpeg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha3" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Estrategia</h3>
+                <div class="indicadores" id="indc4"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda4" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="estra">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/age.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/among.jpg" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/plantas.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/total.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/medieval.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-estra">
+                            <a href="#"><img src="img/estrategia/home.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha4" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Lucha</h3>
+                <div class="indicadores" id="indc5"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda5" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="lucha">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/mortal.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/dragon.jpg" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/stree.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/tekken.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/marvel.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-lucha">
+                            <a href="#"><img src="img/lucha/soul.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha5" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Shooters</h3>
+                <div class="indicadores" id="indc6"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda6" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="shooter">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/over.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/doom.jpg" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/ba.png" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/boo.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/left.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-shooter">
+                            <a href="#"><img src="img/shooters/risis.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha6" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Carreras</h3>
+                <div class="indicadores" id="indc7"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda7" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="carrera">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/ned.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/asphalt.jpg" alt="red-dead"
+                                    width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/dirt.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/dirt2.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/bur.png" alt="red-dead" width="260px"></a>
+                        </div>
+                        <div class="juegos" id="juego-carrera">
+                            <a href="#"><img src="img/carrera/project.jpg" alt="red-dead" width="260px"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha7" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+
+            </div>
+        </div>
+
+
+        <div class="novedad-juego contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Aventura</h3>
+                <div class="indicadores" id="indc8"></div>
+            </div>
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda8" class="flecha-izquierda"><i
+                        class="fas fa-angle-left"></i></button>
+                <div class="contenedor-carrusel" id="aventura">
+                    <div class="carrusel">
+                        <div class="juegos" id="juego-aventura">
+                            <a href="#"><img src="img/aventura/metal.png" alt="gtav" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/rise.jpg" alt="rust" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="../Parte Johel/Seleccionarjuego.html"><img src="img/aventura/Mario.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/batman.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/prince.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/ass.jpeg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/life.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/watch.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/the.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                        <div class="juegos " id="juego-aventura">
+                            <a href="#"><img src="img/aventura/in.jpg" alt="dota2" class="uno"></a>
+                        </div>
+                    </div>
+                </div>
+                <button role="button" id="flecha-derecha8" class="flecha-derecha"><i
+                        class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer >
+       
+        <div class="container-footer-all">
+         
+             <div class="container-body">
+ 
+                 <div class="colum1">
+                     <h1>Mas informacion de la empresa</h1>
+ 
+                     <p>Senua es una startup que se encarga de brindar los mas recientes títulos en el ámbito de los videojuegos. 
+                        Mediante una suscripción mensual o anual a la plataforma.</p>
+ 
+                 </div>
+ 
+                 <div class="colum2">
+ 
+                     <h1>Redes Sociales</h1>
+ 
+                     <div class="row">
+                         <img src="../Parte Johel/img/facebook.png">
+                         <a class="facebook" href="https://www.facebook.com/SENUA-104440608295822" target="_blank">Siguenos en Facebook</a>
+                     </div>
+                     <div class="row">
+                         <img src="../Parte Johel/img/twitter.png">
+                         <a class="facebook" href="https://twitter.com/Senua_Sacrifice" target="_blank">Siguenos en Twitter</a>
+                     </div>
+                     <div class="row">
+                         <img src="../Parte Johel/img/instagram.png">
+                         <a class="facebook" href="https://www.instagram.com/rockboy_gamer/?hl=es-la" target="_blank">Siguenos en instagram</a>
+                     </div>
+                     <div class="row">
+                         <img src="../Parte Johel/img/youtube.png">
+                         <a class="facebook" href="https://www.youtube.com/watch?v=2TR0gaG01do" target="_blank">Siguenos en Youtube</a>
+                     </div>
+                     <div class="row">
+                         <img src="../Parte Johel/img/twitch.png">
+                         <a class="facebook" href="https://www.twitch.tv/katiebedford" target="_blank">Siguenos en Twitch</a>
+                     </div>
+ 
+ 
+                 </div>
+ 
+                 <div class="colum3">
+ 
+                     <h1>Informacion Contactos</h1>
+ 
+                     <div class="row2">
+                         <img src="../Parte Johel/img/casa.png">
+                         <label>Jirón Mariscal Ramon Castilla 485, San Miguel 15084</label>
+                     </div>
+ 
+                     <div class="row2">
+                         <img src="../Parte Johel/img/telefono.png">
+                         <label>+51 934 878 672</label>
+                     </div>
+ 
+                     <div class="row2">
+                         <img src="../Parte Johel/img/correo.png">
+                          <label>infocontacto@senua.com</label>
+                     </div>
+ 
+                 </div>
+ 
+             </div>
+         
+         </div>
+         
+         <div class="container-footer">
+                <div class="footer">
+                     <div class="copyright">
+                         © 2020 Todos los derechos Reservados  | <a href="">Senua</a>
+                     </div>
+ 
+                     <div class="information">
+                         <a href="">Informacion Empresa</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                     </div>
+                 </div>
+ 
+             </div>
+         
+     </footer>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3739c302fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="megaman.css">
+    <link rel="stylesheet" href="css/video-js.css">
+
+    <script src="js/video.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Parte de arriba-->
+        <div class="contenedor">
+            <a href=""><img src="img/logo.png" alt="logo" width="250px"></a>
+            <nav>
+                <a href="../ParteReynaldo/Inicio.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="../ParteGuillermo/comunidad.html">Comunidad</a>
+                <a href="../ParteGuillermo/novedades.html">Novedades</a>
+                <a href="../ParteReynaldo/Descargas.html">Descargas</a>
+            </nav>
+        </div>
+        <!-- Titulo del videojuego-->
+        <section class="titulo" id="titulo">
+            <h1>Hellblade: Senua's Sacrifice </h1>
+        </section>
+        <!-- Parte de video del juego y pequeña presentacion-->
+        <main class="main">
+            <div>
+                <video width="500" class="fm-video video-js vjs-16-9 vjs-big-play-centered" controls autoplay muted
+                    data-setup="{}" id="fm-video">
+                    <source src="video/Senua's Saga_ Hellblade 2 - Official Reveal Trailer _ The Game Awards 2019.mp4"
+                        type="video/mp4">
+                    <p>Tu navegador no soporta videos en HTML5, por favor actualizarlo</p>
+                </video>
+            </div>
+            <!-- <section class="imagenes"> -->
+            <!-- <article> -->
+            <!--<h2>Tu buen vecino el Hombre Araña</h2>
+                //<p>
+                    El cómic o historieta es considerado un producto cultural de la modernidad industrial y política occidental que surgió en paralelo a la evolución de la prensa como primer medio de comunicación de masas. Pero su punto de partida se encuentra entre la aparición de la imprenta, en 1446, y de la litografía, en 1789.
+                    </p>
+
+                    
+                    <p>Hacia finales del siglo XIX tanto en Europa como en Estados Unidos, los periódicos recurrían a diferentes incentivos con el fin de atraer el mayor número de lectores y, por consiguiente, controlar el mercado. La modernización de los sistemas de impresión en Estados Unidos permitió que a partir de 1893 se incluyera una página en color en los suplementos dominicales. Las series germinales fueron Hogan’s Alley (1895) de Outcault, protagonizada por The Yellow Kid, The Katzenjammer Kids (1897) de Rudolph Dirks, y Happy Hooligan (1899) de Frederick Burr Opper. Fueron éstas las que sentaron las bases del cómic actual, con las secuencias de imágenes consecutivas para articular un relato, la permanencia de uno o más personajes a lo largo de la serie y la integración del texto en la imagen, con los globos de diálogo.
+                    </p>
+                -->
+            <!----        <img src="img/mario2.jpg" alt="Imagen Mario 2" title="Imagen juego Mario" width="100px">
+                <img src="img/mario4.jpg" alt="Imagen Mario 4" title="Imagen juego Mario" width="100px">
+                <img src="img/mario5.jpg" alt="Imagen Mario 5" title="Imagen juego Mario" width="100px">
+                <img src="img/mario6.jpg" alt="Imagen Mario 6" title="Imagen juego Mario" width="100px">
+                <img src="img/mario7.jpg" alt="Imagen Mario 7" title="Imagen juego Mario" width="100px">
+                <img src="img/mario8.jpg" alt="Imagen Mario 8" title="Imagen juego Mario" width="100px">
+        -->
+
+            <!-- </article> -->
+            <!--  </section> -->
+            <div class="novedad-juego contenedor">
+                <div class="contenedor-titulo-controles">
+
+                    <div class="indicadores" id="indc"></div>
+                </div>
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+                            class="fas fa-angle-left"></i></button>
+
+                    <div class="contenedor-carrusel " id="nuevo">
+                        <div class="carrusel">
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua1.jpg" alt="red-dead" width="260px"></a>
+                            </div>
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua2.jpg" alt="starwars" width="260px"></a>
+                            </div>
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua3.jpg" alt="senua" width="260px"></a>
+                            </div>
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua4.jpg" alt="crash-team-racing" width="260px"></a>
+                            </div>
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua5.jpg" alt="megamanx8" width="260px"></a>
+                            </div>
+                            <div class="juegos" id="juego-nuevo">
+                                <a href="#"><img src="img/Senua/senua6.jpg" alt="amongus" width="260px"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button role="button" id="flecha-derecha" class="flecha-derecha"><i
+                            class="fas fa-angle-right"></i></button>
+                </div>
+            </div>
+
+        </main>
+    </header>
+    <!-- Parte correspondiente a portada de juego y texto reconocimiento-->
+    <aside>
+        <div class="widget">
+            <img src="img/Senua/dims.jpg"
+                alt="Imagen portada Mario 64" title="Imagen portada" width="400px">
+
+            <div class="widget">
+                <p>
+                    Hellblade: Senua’s Sacrifice cuenta la historia de Senua, una guerrera nórdica que quiere llegar a
+                    Helheim para derrotar a Hela, la diosa de la muerte, para así recuperar el alma de su esposo,
+                    Dillion. Lo que hace especial a esta premisa es que se enfoca en como la protagonista debe superar
+                    sus miedos para cumplir su cometido. Se trata de un viaje de superación, duelo y autodescubrimiento,
+                    donde el combate y la violencia toman lugar, pero no resaltan sólo por el hecho de ser cruentos,
+                    sino por profundizar en la mentalidad del personaje.
+                </p>
+                <br>
+                <h3>Fecha de lanzamiento: 8 de agosto de 2017</h3>
+                <br>
+                <h3>Desarrollado por: Ninja Theory</h3>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Parte de abajo-->
+
+    <main>
+        <div class="principal" id="principal">
+            <div class="contenedor2">
+                <a href="../descarga/Mario 64 HD.exe" download="Mario64.exe"> <button role="button" class="boton"><i
+                            class="fas fa-download"></i> Descargar Juego</button></a>
+    </main>
+
+    <footer>
+
+        <div class="container-footer-all">
+
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas informacion de la empresa</h1>
+
+                    <p>Senua es una startup que se encarga de brindar los mas recientes títulos en el ámbito de los
+                        videojuegos.
+                        Mediante una suscripción mensual o anual a la plataforma.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row">
+                        <img src="img/facebook.png">
+                        <a class="facebook" href="https://www.facebook.com/SENUA-104440608295822"
+                            target="_blank">Siguenos en Facebook</a>
+                    </div>
+                    <div class="row">
+                        <img src="img/twitter.png">
+                        <a class="facebook" href="https://twitter.com/Senua_Sacrifice" target="_blank">Siguenos en
+                            Twitter</a>
+                    </div>
+                    <div class="row">
+                        <img src="img/instagram.png">
+                        <a class="facebook" href="https://www.instagram.com/rockboy_gamer/?hl=es-la"
+                            target="_blank">Siguenos en instagram</a>
+                    </div>
+                    <div class="row">
+                        <img src="img/youtube.png">
+                        <a class="facebook" href="https://www.youtube.com/watch?v=2TR0gaG01do" target="_blank">Siguenos
+                            en Youtube</a>
+                    </div>
+                    <div class="row">
+                        <img src="img/twitch.png">
+                        <a class="facebook" href="https://www.twitch.tv/katiebedford" target="_blank">Siguenos en
+                            Twitch</a>
+                    </div>
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Informacion Contactos</h1>
+
+                    <div class="row2">
+                        <img src="img/casa.png">
+                        <label>Jirón Mariscal Ramon Castilla 485, San Miguel 15084</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="img/telefono.png">
+                        <label>+51 934 878 672</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="img/correo.png">
+                        <label>infocontacto@senua.com</label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    © 2020 Todos los derechos Reservados | <a href="">Senua</a>
+                </div>
+
+                <div class="information">
+                    <a href="">Informacion Empresa</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y
+                        Condiciones</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

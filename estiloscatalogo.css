@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+
+}
+body{
+    background: linear-gradient(black 0%, purple 100%);
+    font-family: "Open Sans", Sans-serif;
+}
+/*footer*/
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row a{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+    text-decoration:none;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+    }
+}
+
+/*header*/
+header{
+    padding: 30px 0;  
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo{
+    color: white;
+}
+
+/*Titulo carrusel*/
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+.contenedor-titulo-controles h3{
+    color:white;
+    font-size: 30px;
+}
+.contenedor-titulo-controles .indicadores button{
+    background: white;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo{
+    background-color: red;
+}
+
+/*Carrusel*/
+.novedad-juego{
+    margin-bottom: 70px;
+} 
+
+.novedad-juego .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.novedad-juego .contenedor-principal .flecha-izquierda,
+.novedad-juego .contenedor-principal .flecha-derecha{
+    position: absolute;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+.novedad-juego .contenedor-principal .flecha-izquierda:hover,
+.novedad-juego .contenedor-principal .flecha-derecha:hover{
+    background: rgba(0, 0, 0, .9);
+}
+
+.novedad-juego .contenedor-principal .flecha-izquierda{
+    left: 0;
+}
+.novedad-juego .contenedor-principal .flecha-derecha{
+    right: 0;
+}
+
+.novedad-juego .contenedor-carrusel{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.novedad-juego .contenedor-carrusel .carrusel{
+    display: flex;
+    flex-wrap: nowrap;  
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos{
+    min-width: 20%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos.hover{
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.novedad-juego .contenedor-carrusel .carrusel .juegos img{
+    width: 100%;
+    vertical-align: top; 
+    height: 100%;
+}
+.novedad-juego .contenedor-carrusel .carrusel .juegos .uno{
+    width: 100%;
+    vertical-align: top; 
+    height: 100%;
+   
+}
+/*Pestaña comunidad*/
+.tabla{
+    font-size: 20px;
+    color: white;
+    width: 95%;
+   /* border-color: rgb(61, 5, 66);*/
+    margin: auto;
+    border: 1px rgb(239, 230, 240);    
+}
+.tabla .numero{
+    font-size: 50px;
+    width: 90px;
+    text-align: center;
+}
+/*Logo Comunidad*/
+.logo img{
+        display:block;
+        margin:auto;
+        width: 1200px; 
+           
+}
